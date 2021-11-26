@@ -1,0 +1,37 @@
+{
+"name": "Natuur Museum",
+"short_name": "Natuurlijk",
+"description": "Natuurlijk",
+"start_url": "index.html",
+"display": "standalone",
+"orientation": "portrait-primary",
+"background_color": "#fff",
+"theme_color": "#FBCB37",
+"icons": [
+  {
+    "src": "Img/Icons/icon_72.png",
+    "sizes": "72x72",
+    "type": "image/png"
+  },
+  {
+    "src": "Img/Icons/icon_152.png",
+    "sizes": "152x152",
+    "type": "image/png"
+  },
+  {
+    "src": "Img/Icons/icon_192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  },
+  {
+    "src": "Img/Icons/icon_256.png",
+    "sizes": "256x256",
+    "type": "image/png"
+  },
+  {
+    "src": "Img/Icons/icon_512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }
+]
+}

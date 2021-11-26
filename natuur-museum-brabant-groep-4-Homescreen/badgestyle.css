@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    background-color: #F6F6F6;
+    background-image: url('images/Image\ 13.png');
+    background-size: 525px 475px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top 450px left -40px;
+}
+
+.header {
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 0px 3px 6px #00000029;
+    padding: 20px;
+    text-align: left;
+    padding-top: 70px;
+    background: #007AF6;
+    color: white;
+    font-size: 25px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px;
+}
+
+.badgesbehaald{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+}
+
+.card
+{
+    margin: 0px 10px 20px 10px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.card .popuptext
+{
+    display:block;
+    padding: 20px;
+    height: 500px;
+    text-align: justify;
+    position:fixed;
+    width: 350px;
+    visibility: hidden;
+    z-index: 1;
+    margin-left: -25%;
+    background-image: url('images/textbox.png');
+    background-repeat: no-repeat;
+    background-size: 325px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+p
+{
+    width: 280px;
+}
+
+.card .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+.badgesnietbehaald{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+}
+
+.badgesnietbehaald img
+{
+    width: 80px;
+    height: 80px;
+}
+
+h3
+{
+    padding-left: 50px;
+    padding-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 0px 3px 6px #00000029;
+    text-align: left;
+    margin: 10px;
+    color: #007AF6;
+    font-size: 35px;
+}
+
+img
+{
+    width: 75px;
+    height: 75px;
+}
+
+.menu-buttons
+{
+    bottom: 0;
+    position: fixed;
+    width: 97.5%;
+    background: #FFFFFF;
+    border-color: #007AF6;
+    border-style: solid;
+    border-width: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-width: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.buttons{
+    padding-top: 25px;
+}

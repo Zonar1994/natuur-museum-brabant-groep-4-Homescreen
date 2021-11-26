@@ -1,0 +1,144 @@
+:root {
+    --orange: #FBCB37;
+    --orangeHover: #aa8002;
+    --grey: #808080;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;}
+
+body {
+    background-color: var(--orange);
+}
+
+.rounded-top-xl {
+    border-radius: 25px 25px 0px 0px;
+ }
+
+ .bottom-border {
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+
+    box-shadow: none; /* You may want to include this as bootstrap applies these styles too */
+}
+
+.no-border {
+    border: none;
+    box-shadow: none; /* You may want to include this as bootstrap applies these styles too */
+}
+
+.btn-primary {
+    background-color: var(--orange);
+    border: none;
+    color: black;
+    border-radius: 10px;
+    height: 50px;
+    }
+
+    .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    background-color:  var(--orangeHover);
+}
+
+.btn-secondary {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    height: 50px;
+    }
+
+    .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .open>.dropdown-toggle.btn-secondary {
+        background-color:  var(--orange);
+    }
+
+.card {
+    border: none;
+    box-shadow: 0px 0px 40px 3px #5a5a5a;
+}
+
+@keyframes slideInFromBottom {
+    0% {
+      transform: translateY(+90%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  #card {  
+    /* This section calls the slideInFromLeft animation we defined above */
+    animation: 0.3s ease-out 0s 1 slideInFromBottom;
+  }
+  
+  #cardreveal {  
+    /* This section calls the slideInFromLeft animation we defined above */
+    animation: 0.3s ease-out 0s 1 slideInFromBottom;
+  }
+
+  @keyframes slideInFromBottom2 {
+    0% {
+      transform: translateY(+45%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .cardstart {
+    -webkit-transition: all 0.3s ease;  
+    -moz-transition: all 0.3s ease;  
+    -o-transition: all 0.3s ease;  
+    -ms-transition: all 0.3s ease;  
+    transition: all 0.3s ease;
+    transform: translateY(+45%);
+  }
+
+  .cardstart-active {
+    animation: 0.3s ease-out 0s 1 slideInFromBottom2;
+  }
+
+  .cardclick {
+    -webkit-transition: all 0.3s ease;  
+    -moz-transition: all 0.3s ease;  
+    -o-transition: all 0.3s ease;  
+    -ms-transition: all 0.3s ease;  
+    transition: all 0.3s ease;
+    transform: translateY(+95%);
+  }
+
+  .cardclick-active {
+    animation: 0.3s ease-out 0s 1 slideInFromBottom2;
+  }
+
+  .newone { 
+    display:none;
+  }
+
+  .roundedXL {
+    border-radius: 10px;
+
+  }
+
+  hr.rounded {
+    border-top: 2px solid rgb(109, 109, 109);
+    border-radius: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  
+  hr.card {
+    border-top: 3px solid rgb(109, 109, 109);
+    border-radius: 10px;
+    width:20%;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .link-secondary {
+    color: var(--orange);
+  }

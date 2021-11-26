@@ -1,0 +1,99 @@
+/* external css: flickity.css */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    overflow: hidden;
+}
+#Welkom{
+    padding: 1vh 5vw 0px 5vw;
+   
+}
+#Welkom h1{
+    font-size: 4vh;
+    line-height: 4vh;
+}
+#Welkom h3{
+    font-size: 2vh;
+    line-height: 2vh;
+}
+
+#Top{
+    height: 50px;
+}
+#Top img{
+    height: 40px;
+    margin: 5px;
+}
+#Cards{
+    height: 60vh;
+}
+
+.flickity-viewport {
+    height: 60vh !important;
+
+}
+
+/* .carousel {
+    background: #EEE;
+} */
+
+.carousel-cell {
+    margin-top: 6vh;
+    width: 30vh;
+    height: 48vh;
+    margin-right: 4vh;
+    background: #8C8;
+    border-radius: 20px;
+    counter-increment: carousel-cell;
+    overflow: hidden;
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-filter: none;
+    filter: none;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s, transform 0.3s, -webkit-filter 0.3s, filter 0.3s;
+    transition: opacity 0.3s, transform 0.3s, filter 0.3s;
+    box-shadow: 4px 4px 4px rgb(150, 150, 150);
+}
+
+/* cell number */
+.carousel-cell:before {
+    display: block;
+    text-align: bottom;
+    /* content: counter(carousel-cell); */
+    line-height: 60px;
+    font-size: 60px;
+    color: white;
+}
+
+.carousel-cell img {
+
+    height: 100%;
+
+}
+
+.carousel-cell.is-selected {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-filter: none;
+    filter: none;
+    box-shadow: 6px 6px 6px rgb(150, 150, 150);
+}
+
+#Info{
+    padding: 10px;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    font-size: 20px;
+    color: rgb(37, 37, 37);
+    border-radius: 20px;
+    display: inline-block;
+    box-shadow: 0px 0px 6px 6px rgb(206, 206, 206);
+}
+

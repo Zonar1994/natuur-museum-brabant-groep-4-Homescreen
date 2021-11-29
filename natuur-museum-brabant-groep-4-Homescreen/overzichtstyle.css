@@ -8,7 +8,7 @@
 body {
     margin: 0;
     background-color: #F6F6F6;
-    background-image: url('images/Image\ 13.png');
+    background-image: url('./images/butterfly.png');
     background-size: 525px 475px;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -21,7 +21,7 @@ body {
     padding: 20px;
     text-align: left;
     padding-top: 70px;
-    background: #007AF6;
+    background: #8EC55E;
     color: white;
     font-size: 25px;
     border-bottom-left-radius: 20px;
@@ -34,16 +34,28 @@ body {
     margin-left: 40px;
 }
 
-.card
+#container
 {
-    margin: 0px 10px 20px 10px;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    display: center;
+  font-size: 35px;
+   color: black;
+   justify-content: space-evenly;
+  font-style: extra bold;
+   border-color: #ABA4C6;
+   outline-width: 5px;
+   border-width: 3px;
+   flex-wrap: wrap;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   padding: 5px; 
+   margin-left: 1px;
+   margin-top: 1px;
 }
-
+.container{
+    justify-content: center;
+}
 .card .popuptext
 {
     display:block;
@@ -104,7 +116,7 @@ h3
     text-shadow: 0px 3px 6px #00000029;
     text-align: left;
     margin: 10px;
-    color: #007AF6;
+    color: #8EC55E;
     font-size: 35px;
 }
 
